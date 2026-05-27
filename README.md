@@ -125,22 +125,6 @@ npm start        # serve the production build
 **Tech:** Next.js 15, React 19, TypeScript, Tailwind CSS v4, `react-markdown` (+ `remark-gfm` for
 tables) for rendering.
 
-## Deployment
-
-Hosted on **[Vercel](https://vercel.com/)** with a **Cloudflare** domain.
-
-1. **Vercel** — import the GitHub repo (`Tenyyy/bubblemewraids`). Vercel auto-detects Next.js; no
-   config needed. Every push to `main` deploys to production; PRs get preview URLs.
-2. **Cloudflare domain** — in Vercel, add your domain under **Project → Settings → Domains**. Vercel
-   shows the DNS records to create. In the Cloudflare dashboard add them:
-   - Apex (`bubblemewraid.com`): `A` record → Vercel's IP `76.76.21.21`.
-   - `www`: `CNAME` → `cname.vercel-dns.com`.
-   - Set these records to **DNS only** (grey cloud, proxy off) so Vercel can issue the TLS cert.
-     Once verified, you may re-enable Cloudflare's proxy if you set SSL/TLS mode to **Full
-     (strict)**.
-
----
-
 <div align="center">
 
 *Bubble Mew — see you in the cleared logs. 🫧*
