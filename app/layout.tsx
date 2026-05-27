@@ -10,6 +10,10 @@ export const metadata: Metadata = {
   },
   description:
     "Bubble Mew's phase-by-phase strategy guide for Dancing Mad Ultimate (UMAD) in Final Fantasy XIV.",
+  icons: {
+    icon: "/logo.png",
+    apple: "/logo.png",
+  },
 };
 
 // Runs before paint to set the theme from storage (or system preference),
