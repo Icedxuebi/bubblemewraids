@@ -67,12 +67,12 @@ export default function Sidebar({ nav }: { nav: NavEntry[] }) {
           </nav>
 
           <a
-            href="https://www.fflogs.com/guild/id/139493"
+            href="https://github.com/Tenyyy/bubblemewraids/"
             target="_blank"
             rel="noopener noreferrer"
             className="mt-auto rounded-lg border border-bubble-border px-3 py-2 text-center text-xs text-bubble-muted hover:text-bubble-cyan"
           >
-            FFLogs ↗
+            GitHub ↗
           </a>
         </div>
       </aside>
