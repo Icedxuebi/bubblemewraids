@@ -66,13 +66,13 @@ export type NavEntry =
   | { kind: "group"; title: string; items: NavLink[] };
 
 /** Display order + short labels for phase pages (file slug → label). */
-const PHASE_ORDER = ["p1", "p2", "p3", "transitions", "enrage"];
+const PHASE_ORDER = ["p1", "p2", "p3", "p4", "enrage"];
 const PHASE_LABEL: Record<string, string> = {
   p1: "Phase 1",
   p2: "Phase 2",
   p3: "Phase 3",
-  transitions: "Intermissions & Adds",
-  enrage: "Final Phase / Enrage",
+  p4: "Phase 4",
+  enrage: "Final Phase",
 };
 
 /**

@@ -1,4 +1,4 @@
-# UMAD — Final Phase / Enrage
+# UMAD — Final Phase
 
 > ⚠️ **Placeholder.** This page will be filled in once the fight releases and we lock in our prog
 > strat. See [this](../ultimate.md) for role abbreviations (MT/OT/H1/H2/D1/D2/D3/D4).

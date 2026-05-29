@@ -127,6 +127,6 @@ tables) for rendering.
 
 <div align="center">
 
-*Bubble Mew — see you in the cleared logs. 🫧*
+*run to me when the world gets mean to you, ok? 🫧*
 
 </div>

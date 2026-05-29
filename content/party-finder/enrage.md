@@ -1,4 +1,4 @@
-# UMAD — Final Phase / Enrage (Party Finder)
+# UMAD — Final Phase (Party Finder)
 
 > ⚠️ **Placeholder.** The **PF-standard** resolution for the final phase, filled in once the fight
 > releases. This is the community convention for pick-up groups — for our team's version see the
