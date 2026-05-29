@@ -10,7 +10,7 @@ contribute — no web-development experience required.
 Got a better strat, a fix, or a suggestion? We'd love your help. Reach out to get added to the
 GitHub repo:
 
-- **Email:** [xuebi@bubblemewraid.com](mailto:xuebi@bubblemewraid.com)
+- **Email:** [xuebi@bubblemewraids.com](mailto:xuebi@bubblemewraids.com)
 - ![Discord](/discord.svg) **Discord:** `thefeelingsblue`
 
 Whether you want to contribute directly or just float an idea, drop a message and we'll get you set
