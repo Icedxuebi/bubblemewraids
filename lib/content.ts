@@ -69,7 +69,7 @@ export type NavEntry =
 const PHASE_ORDER = ["p1", "p2", "p3", "p4", "enrage"];
 const PHASE_LABEL: Record<string, string> = {
   p1: "Phase 1",
-  p2: "Phase 2",
+  p2: "Phase 2: God Kefka",
   p3: "Phase 3",
   p4: "Phase 4",
   enrage: "Final Phase",
