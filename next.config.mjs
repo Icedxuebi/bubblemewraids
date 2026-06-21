@@ -6,6 +6,7 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
+  devIndicators: false,
   // Pin the workspace root to this project (a stray lockfile in the home
   // directory otherwise confuses Next's file-tracing root detection).
   outputFileTracingRoot: __dirname,

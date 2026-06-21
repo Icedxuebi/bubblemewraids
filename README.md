@@ -85,14 +85,14 @@ composition:
 | Abbrev | Role | Notes |
 |--------|------|-------|
 | **MT** | Main Tank | Holds the boss, faces it away from the party |
-| **OT** | Off-Tank | Tank swaps, adds, shared tankbusters |
+| **ST** | Off-Tank | Tank swaps, adds, shared tankbusters |
 | **H1** | Pure / Regen Healer | Raw healing & recovery (WHM / AST) |
 | **H2** | Shield / Barrier Healer | Mitigation & barriers (SCH / SGE) |
 | **D1 / D2** | Melee DPS | Close-range, positional uptime |
 | **D3**  | Ranged Physical DPS | Mobile damage + raid utility |
 | **D4**  | Caster DPS | Burst damage, manages cast times |
 
-Standard light-party split: **MT · H1 · D1 · D3** and **OT · H2 · D2 · D4** (adjust per mechanic).
+Standard light-party split: **MT · H1 · D1 · D3** and **ST · H2 · D2 · D4** (adjust per mechanic).
 
 ---
 

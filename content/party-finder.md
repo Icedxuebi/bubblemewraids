@@ -1,11 +1,8 @@
 # Dancing Mad Ultimate (UMAD) — Party Finder Guide
 
-> ⚠️ **Placeholder.** Mechanic details fill in once the fight releases. This page tracks the
-> **generic, community-standard** strats — written for pick-up groups, not the Bubble Mew static.
-
 A guide for clearing **UMAD in Party Finder (PF)**. You don't need a static or voice comms to use
-this — the goal here is to learn the **widely-recognized conventions** most PF parties will expect,
-so a group of eight strangers can resolve every mechanic the same way.
+this — the goal is to learn the **widely-recognized conventions** most PF parties expect, so a group
+of eight strangers can resolve every mechanic the same way. **All five phases are documented below.**
 
 > New to Ultimates entirely? Read **[this](ultimate.md)** first — it explains what an
 > Ultimate is, the 8-player roles, and how phases work. This page assumes you know the basics.
@@ -14,11 +11,12 @@ so a group of eight strangers can resolve every mechanic the same way.
 
 ## How This Differs From the Static Guide
 
-The rest of this site documents **Bubble Mew's** strats, which are tuned for a coordinated team.
-This page instead covers the **PF standard** — the strats you're most likely to see in a Party
-Finder description. Where they diverge, each phase page flags it.
+The rest of this site documents **Bubble Mew's** strats, tuned for a coordinated team. This section
+covers the **PF standard** — the strats you're most likely to see in a Party Finder description.
+Where they diverge, each phase page flags it (and a few phases, like P2 and P4, are the *same* strat
+either way).
 
-| | Party Finder (this page) | Bubble Mew static |
+| | Party Finder (this guide) | Bubble Mew static |
 |---|---|---|
 | **Who it's for** | Pick-up groups, no comms | Our team, in voice |
 | **Priority** | Match the common convention | Optimize for our comp |
@@ -32,8 +30,8 @@ Before you join or post, know the shorthand commonly used in UMAD Party Finder d
 
 - **Strat name** — the agreed mechanic resolution (e.g. a named uptime or clock strat). Always
   match the one in the PF title.
-- **Prog point** — how far the party expects to get (e.g. "P2 enrage prog", "fresh", "reclears").
-- **Role spots** — which of MT / OT / H1 / H2 / D1 / D2 / D3 / D4 are open.
+- **Prog point** — how far the party expects to get (e.g. "P3 prog", "fresh", "reclears").
+- **Role spots** — which of MT / ST / H1 / H2 / D1 / D2 / D3 / D4 are open.
 - **Reclear / Clear party** — for groups farming the fight after a first clear.
 
 See [this](ultimate.md#the-8-player-party-structure) for the full role abbreviation legend.
@@ -55,14 +53,17 @@ See [this](ultimate.md#the-8-player-party-structure) for the full role abbreviat
 
 ## Phase Walkthroughs (PF Standard)
 
-> Filled in as the fight releases. Each page covers the PF-standard resolution and notes where it
-> differs from the matching Bubble Mew strat.
-
-- **[Phase 1](party-finder/p1.md)** — *TBD*
-- **[Phase 2](party-finder/p2.md)** — *TBD*
-- **[Phase 3](party-finder/p3.md)** — *TBD*
-- **[Intermissions & Adds](party-finder/transitions.md)** — *TBD*
-- **[Final Phase / Enrage](party-finder/enrage.md)** — *TBD*
+- **[Phase 1: Kefka](party-finder/p1.md)** — the true/false **deception** opener: Graven Image
+  Fire/Ice rings (? orbs), tower soaks, Confetti knockbacks, gravity stacks, and the Tele-Portent
+  teleport arrows.
+- **[Phase 2: God Kefka](party-finder/p2.md)** — the **Forsaken** 8-tower sequence with clone baits;
+  the community **Kroxy-Rinon 3/4/1** strat (same one Bubble Mew runs).
+- **[Phase 3: Chaos and Exdeath](party-finder/p3.md)** — elemental **crystals** resolved with the
+  **Tank LB3** method, then the **Earthquake / Black Hole** laser sequence.
+- **[Phase 4: Kefka says](party-finder/p4.md)** — a fully-fixed **"Kefka says"** true/fake phase;
+  just the raidplan cheat sheet plus self-marking for spreads.
+- **[Phase 5: Ultima Kefka](party-finder/enrage.md)** — the finale: auto-attack spots, Maddening
+  Spread, Celestriad tower order, and the **Forsaken** enrage stack rotation.
 
 ---
 

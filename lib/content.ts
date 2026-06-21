@@ -68,11 +68,11 @@ export type NavEntry =
 /** Display order + short labels for phase pages (file slug → label). */
 const PHASE_ORDER = ["p1", "p2", "p3", "p4", "enrage"];
 const PHASE_LABEL: Record<string, string> = {
-  p1: "Phase 1",
+  p1: "Phase 1: Kefka",
   p2: "Phase 2: God Kefka",
-  p3: "Phase 3",
-  p4: "Phase 4",
-  enrage: "Final Phase",
+  p3: "Phase 3: Chaos and Exdeath",
+  p4: "Phase 4: Kefka says",
+  enrage: "Phase 5: Ultima Kefka",
 };
 
 /**

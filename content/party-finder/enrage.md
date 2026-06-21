@@ -1,35 +1,48 @@
-# UMAD — Final Phase (Party Finder)
+# UMAD — Phase 5: Ultima Kefka (Party Finder)
 
-> ⚠️ **Placeholder.** The **PF-standard** resolution for the final phase, filled in once the fight
-> releases. This is the community convention for pick-up groups — for our team's version see the
-> [Bubble Mew strat](../bubble-mew/enrage.md). Role abbreviations (MT/OT/H1/H2/D1/D2/D3/D4) are
-> explained in [this](../ultimate.md).
->
-> The climactic phase — expect earlier mechanics to return, often combined — ending in a hard
-> **enrage**.
+> **PF-standard resolution** for the final phase (**Ultima Kefka**). For our team's version see the
+> [Bubble Mew strat](../bubble-mew/enrage.md). Role abbreviations (MT/ST/H1/H2/D1/D2/D3/D4) are
+> explained in [the fundamentals](../ultimate.md).
 
 ---
 
-## Boss Overview
+## Auto-Attack Spots
 
-*TBD — final boss form, theme, and arena.*
+**Ultima Repeater** — a **4× raidwide**. Stand in your **role spots** to prep for the autos.
 
-## Mechanic Timeline
+![Auto-attack role spots — Ultima Repeater](/p5/auto-spots.png)
 
-| Time | Mechanic | Notes |
-|------|----------|-------|
-| 0:00 | *TBD* | |
-| —    | **Enrage** | *TBD — enrage cast & timing* |
+---
 
-## PF-Standard Strat
+## Maddening Spread
 
-*TBD — the widely-recognized resolution for the combined mechanics. Match the strat named in the PF
-listing.*
+Take your **fixed spread position** — getting clipped by someone else's **Maddening Spread** sends you
+to the shadow realm, so keep to your assigned spot.
 
-## DPS Check / Enrage
+![Maddening Spread positions](/p5/maddening-spread.png)
 
-*TBD — required DPS and the standard burst/raid-buff timing PF parties use to beat enrage.*
+---
 
-## Common PF Mistakes
+## Celestriad — Tower Order
 
-- *TBD — what pick-up groups most often trip on here.*
+Watch Kefka's **wand animation** to read the element: **Earth = Chariot** (get out), **Wind = Dynamo**
+(get in).
+
+- **Players with a debuff** → take the **1st safe tower clockwise** from your vuln.
+- **Players with no debuff** → take the **first counter-clockwise tower** of the element with **2×
+  towers**.
+
+![Celestriad tower order — 1st set](/p5/celestriad.png)
+
+---
+
+## Forsaken (Enrage)
+
+**Party stack C**, then go **4 → 1 → 2 → B**. If Kefka **eats the cardinal at B** on the **3rd stack**,
+the party instead goes **C → 4 → 1 → 2 → 1**.
+
+![Forsaken — stack rotation around the arena](/p5/forsaken.png)
+
+---
+
+> **Differs from our strat?** See the [Bubble Mew Phase 5 strat](../bubble-mew/enrage.md) for comparison.

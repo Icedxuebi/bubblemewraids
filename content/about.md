@@ -3,7 +3,9 @@
 We're **Bubble Mew** — an 8-person *Final Fantasy XIV* static progging **Dancing Mad Ultimate
 (UMAD)**. This site is where we write down, refine, and share the strats we run together.
 
-> 🫧 *run to me when the world gets mean to you, ok?*
+> *run to me when the world gets mean to you, ok?*
+
+![Bubble Mew](/about/group.png)
 
 ---
 
@@ -17,7 +19,7 @@ Click any name to open their FFLogs profile.
 | Spot | Role | Player |
 |------|------|--------|
 | **MT** | Tank | [Nov](https://www.fflogs.com/character/id/19753882) &nbsp; [![Twitch](/twitch.svg) watch](https://twitch.tv/novnights) |
-| **OT** | Tank | [Noctis](https://www.fflogs.com/character/id/13389654) |
+| **ST** | Tank | [Noctis](https://www.fflogs.com/character/id/13389654) |
 | **H1** | Healer | [Rei](https://www.fflogs.com/character/jp/tonberry/rei%20yumihara) |
 | **H2** | Healer | [Yeas](https://www.fflogs.com/character/jp/kujata/yeas%20seay) |
 | **D1** | Melee DPS | [Xuebi](https://www.fflogs.com/character/jp/tonberry/ao%20mori) |

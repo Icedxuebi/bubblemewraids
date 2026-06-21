@@ -38,12 +38,12 @@ composition often called the "light party x2" or **2-2-4** setup.
 
 | Category | Count | Roles (party-spot abbreviation) |
 |----------|-------|---------------------------------|
-| Tanks    | 2     | Main Tank (**MT**), Off-Tank (**OT**) |
+| Tanks    | 2     | Main Tank (**MT**), Off-Tank (**ST**) |
 | Healers  | 2     | Pure Healer (**H1**), Shield Healer (**H2**) |
 | DPS      | 4     | 2 Melee (**D1**, **D2**), 1 Ranged Physical (**D3**), 1 Caster (**D4**) |
 
 > **Role spots:** Throughout this site players are referenced by these abbreviations —
-> **MT · OT · H1 · H2 · D1 · D2 · D3 · D4**. The four DPS share the generic **D1–D4** labels
+> **MT · sT · H1 · H2 · D1 · D2 · D3 · D4**. The four DPS share the generic **D1–D4** labels
 > regardless of whether they're melee, ranged, or caster.
 
 Each role has a distinct job to do, and Ultimate mechanics are frequently designed around this
@@ -57,7 +57,7 @@ rest of the party can attack safely.
 - **Main Tank (MT)** — Holds the boss for the majority of the fight. The Main Tank faces the boss
   away from the party and is the primary target of the boss's basic attacks and "tankbuster"
   mechanics.
-- **Off-Tank (OT)** — Backs up the Main Tank. The Off-Tank picks up additional enemies (adds),
+- **Off-Tank (ST)** — Backs up the Main Tank. The Off-Tank picks up additional enemies (adds),
   takes the boss during **tank swaps**, and soaks shared or stacked tankbusters. Many Ultimate
   mechanics require both tanks to alternate so that neither dies to stacking debuffs.
 
