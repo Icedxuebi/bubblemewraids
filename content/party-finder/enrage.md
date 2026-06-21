@@ -35,7 +35,12 @@ Watch Kefka's **wand animation** to read the element: **Earth = Chariot** (get o
 ![Celestriad tower order — 1st set](/p5/celestriad.png)
 
 ---
+## Exa flare (pray for sickexa)
+Just dodge lmao 
 
+![Just dodge](/p5/just-dodge.gif)
+
+---
 ## Forsaken (Enrage)
 
 **Party stack C**, then go **4 → 1 → 2 → B**. If Kefka **eats the cardinal at B** on the **3rd stack**,
