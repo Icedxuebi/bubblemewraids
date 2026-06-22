@@ -66,13 +66,13 @@ export type NavEntry =
   | { kind: "group"; title: string; items: NavLink[] };
 
 /** Display order + short labels for phase pages (file slug → label). */
-const PHASE_ORDER = ["p1", "p2", "p3", "p4", "enrage"];
+const PHASE_ORDER = ["p1", "p2", "p3", "p4", "p5"];
 const PHASE_LABEL: Record<string, string> = {
   p1: "Phase 1: Kefka",
   p2: "Phase 2: God Kefka",
   p3: "Phase 3: Chaos and Exdeath",
   p4: "Phase 4: Kefka says",
-  enrage: "Phase 5: Ultima Kefka",
+  p5: "Phase 5: Ultima Kefka",
 };
 
 /**
@@ -100,7 +100,13 @@ export function getNav(): NavEntry[] {
   const entries: NavEntry[] = [];
 
   const about = byHref("/about");
-  if (about) entries.push({ kind: "link", title: "About Us", href: about.href });
+  const povLibrary = byHref("/about/pov-library");
+  const aboutItems: NavLink[] = [];
+  if (about) aboutItems.push({ title: "The Team", href: about.href });
+  if (povLibrary) aboutItems.push({ title: "POV Library", href: povLibrary.href });
+  if (aboutItems.length) {
+    entries.push({ kind: "group", title: "About Us", items: aboutItems });
+  }
 
   const fundamentals = byHref("/ultimate");
   if (fundamentals) {

@@ -71,7 +71,7 @@ Sidebar sections map to content as follows:
 
 - **About Us** — `content/about.md` → `/about` *(team roster — TBD)*
 - **Guides** — `content/ultimate.md` — Ultimate fundamentals & roles ✅ → `/ultimate`
-- **Bubble Mew Strats** — `content/bubble-mew/*.md` → `/bubble-mew/{p1,p2,p3,transitions,enrage}` *(TBD)*
+- **Bubble Mew Strats** — `content/bubble-mew/*.md` → `/bubble-mew/{p1,p2,p3,p4,p5}` *(TBD)*
 - **Party Finder Strats** — `content/party-finder.md` (overview) + `content/party-finder/*.md` → `/party-finder/...` *(TBD)*
 - **Contribution** — `content/contribution.md` → `/contribution` ✅
 

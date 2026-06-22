@@ -3,7 +3,7 @@
 We're **Bubble Mew** — an 8-person *Final Fantasy XIV* static progging **Dancing Mad Ultimate
 (UMAD)**. This site is where we write down, refine, and share the strats we run together.
 
-> *run to me when the world gets mean to you, ok?*
+> * 🫧 run to me when the world gets mean to you, ok?*
 
 ![Bubble Mew](/about/group.png)
 

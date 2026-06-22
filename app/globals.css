@@ -121,9 +121,10 @@ body {
   padding: 0.6rem 0.9rem;
 }
 
-/* Brand logos (Discord / Twitch) rendered inline within text */
+/* Brand logos (Discord / Twitch / YouTube) rendered inline within text */
 .prose img[alt="Discord"],
-.prose img[alt="Twitch"] {
+.prose img[alt="Twitch"],
+.prose img[alt="YouTube"] {
   display: inline-block;
   height: 1.1em;
   width: auto;

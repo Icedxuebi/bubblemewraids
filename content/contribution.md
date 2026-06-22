@@ -39,13 +39,9 @@ bubblemew/
 │  ├─ contribution.md      → /contribution      (this page)
 │  ├─ party-finder.md      → /party-finder      (PF overview)
 │  ├─ bubble-mew/          → Bubble Mew Strats
-│  │  ├─ p1.md  p2.md  p3.md
-│  │  ├─ transitions.md
-│  │  └─ enrage.md
+│  │  └─ p1.md  p2.md  p3.md  p4.md  p5.md
 │  └─ party-finder/        → Party Finder Strats
-│     ├─ p1.md  p2.md  p3.md
-│     ├─ transitions.md
-│     └─ enrage.md
+│     └─ p1.md  p2.md  p3.md  p4.md  p5.md
 ├─ app/                    ← Next.js pages & layout (rarely touched)
 ├─ components/             ← Sidebar, Markdown renderer, theme toggle
 ├─ lib/content.ts          ← reads content/ and builds the sidebar nav

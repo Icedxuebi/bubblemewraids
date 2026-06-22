@@ -62,7 +62,7 @@ See [this](ultimate.md#the-8-player-party-structure) for the full role abbreviat
   **Tank LB3** method, then the **Earthquake / Black Hole** laser sequence.
 - **[Phase 4: Kefka says](party-finder/p4.md)** — a fully-fixed **"Kefka says"** true/fake phase;
   just the raidplan cheat sheet plus self-marking for spreads.
-- **[Phase 5: Ultima Kefka](party-finder/enrage.md)** — the finale: auto-attack spots, Maddening
+- **[Phase 5: Ultima Kefka](party-finder/p5.md)** — the finale: auto-attack spots, Maddening
   Spread, Celestriad tower order, and the **Forsaken** enrage stack rotation.
 
 ---
