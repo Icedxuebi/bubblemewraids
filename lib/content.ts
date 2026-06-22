@@ -63,7 +63,7 @@ export interface NavLink {
 /** A sidebar entry is either a direct link or a collapsible group of links. */
 export type NavEntry =
   | { kind: "link"; title: string; href: string }
-  | { kind: "group"; title: string; items: NavLink[] };
+  | { kind: "group"; title: string; items: NavLink[]; accent?: boolean };
 
 /** Display order + short labels for phase pages (file slug → label). */
 const PHASE_ORDER = ["p1", "p2", "p3", "p4", "p5"];
@@ -117,17 +117,23 @@ export function getNav(): NavEntry[] {
     });
   }
 
+  // Party Finder first — it's the most-visited section, and accented to stand out.
+  const pfOverview = byHref("/party-finder");
+  const pfItems: NavLink[] = [];
+  if (pfOverview) pfItems.push({ title: "Overview", href: pfOverview.href });
+  pfItems.push(...phaseItems("party-finder"));
+  entries.push({
+    kind: "group",
+    title: "Party Finder Strats",
+    items: pfItems,
+    accent: true,
+  });
+
   entries.push({
     kind: "group",
     title: "Bubble Mew Strats",
     items: phaseItems("bubble-mew"),
   });
-
-  const pfOverview = byHref("/party-finder");
-  const pfItems: NavLink[] = [];
-  if (pfOverview) pfItems.push({ title: "Overview", href: pfOverview.href });
-  pfItems.push(...phaseItems("party-finder"));
-  entries.push({ kind: "group", title: "Party Finder Strats", items: pfItems });
 
   const contrib = byHref("/contribution");
   if (contrib) {

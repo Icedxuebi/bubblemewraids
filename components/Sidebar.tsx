@@ -61,7 +61,13 @@ export default function Sidebar({ nav }: { nav: NavEntry[] }) {
                   pathname={pathname}
                 />
               ) : (
-                <NavGroup key={entry.title} title={entry.title} items={entry.items} pathname={pathname} />
+                <NavGroup
+                  key={entry.title}
+                  title={entry.title}
+                  items={entry.items}
+                  pathname={pathname}
+                  accent={entry.accent}
+                />
               ),
             )}
           </nav>
@@ -80,12 +86,13 @@ export default function Sidebar({ nav }: { nav: NavEntry[] }) {
   );
 }
 
-function itemClass(active: boolean) {
+function itemClass(active: boolean, accent = false) {
+  const activeClass = accent
+    ? "bg-bubble-cyan/15 text-bubble-cyan font-medium"
+    : "bg-bubble-pink/15 text-bubble-pink font-medium";
   return [
     "block rounded-lg px-3 py-2 text-sm transition-colors",
-    active
-      ? "bg-bubble-pink/15 text-bubble-pink font-medium"
-      : "text-bubble-muted hover:bg-bubble-panel hover:text-bubble-text",
+    active ? activeClass : "text-bubble-muted hover:bg-bubble-panel hover:text-bubble-text",
   ].join(" ");
 }
 
@@ -93,13 +100,15 @@ function NavItemLink({
   href,
   title,
   pathname,
+  accent = false,
 }: {
   href: string;
   title: string;
   pathname: string;
+  accent?: boolean;
 }) {
   return (
-    <Link href={href} className={itemClass(pathname === href)}>
+    <Link href={href} className={itemClass(pathname === href, accent)}>
       {title}
     </Link>
   );
@@ -109,13 +118,19 @@ function NavGroup({
   title,
   items,
   pathname,
+  accent = false,
 }: {
   title: string;
   items: NavLink[];
   pathname: string;
+  accent?: boolean;
 }) {
   const containsActive = items.some((i) => i.href === pathname);
   const [expanded, setExpanded] = useState(containsActive);
+
+  const headerColor = accent
+    ? "text-bubble-cyan hover:text-bubble-pink focus-visible:ring-bubble-cyan"
+    : "text-bubble-violet hover:text-bubble-pink focus-visible:ring-bubble-pink";
 
   return (
     <div className="mt-1">
@@ -123,7 +138,7 @@ function NavGroup({
         type="button"
         onClick={() => setExpanded((v) => !v)}
         aria-expanded={expanded}
-        className="flex w-full items-center justify-between rounded-lg px-3 py-2 text-xs font-semibold uppercase tracking-wider text-bubble-violet transition-colors hover:text-bubble-pink focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-bubble-pink"
+        className={`flex w-full items-center justify-between rounded-lg px-3 py-2 text-xs font-semibold uppercase tracking-wider transition-colors focus-visible:outline-none focus-visible:ring-2 ${headerColor}`}
       >
         <span>{title}</span>
         <svg
@@ -149,6 +164,7 @@ function NavGroup({
               href={item.href}
               title={item.title}
               pathname={pathname}
+              accent={accent}
             />
           ))}
         </div>
